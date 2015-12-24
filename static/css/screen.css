@@ -1047,6 +1047,14 @@ body:not(.post-template) .post-title {
     line-height: 1.5em;
 }
 
+.header-social-icon {
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+    text-decoration: none;
+}
+
+.header-social-icon span {
+    color:white;font-size:2em;
+}
 
 /* ==========================================================================
    5. Single Post - When you click on an individual post
@@ -1495,11 +1503,13 @@ body:not(.post-template) .post-title {
     .page-title {
         font-size: 4rem;
         letter-spacing: -1px;
+        text-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
     }
 
     .page-description {
         font-size: 1.8rem;
         line-height: 1.5em;
+        text-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
     }
 
     .post {
