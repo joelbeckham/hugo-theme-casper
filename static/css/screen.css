@@ -1050,10 +1050,12 @@ body:not(.post-template) .post-title {
 .header-social-icon {
     text-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
     text-decoration: none;
+    color: white;
+    font-size:2em;
 }
 
-.header-social-icon span {
-    color:white;font-size:2em;
+.header-social-icon:hover {
+    color: #cccccc;
 }
 
 /* ==========================================================================
